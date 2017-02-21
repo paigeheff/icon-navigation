@@ -6,6 +6,7 @@ html {
 h1 {
   color: #fff;
 }
+
 .masthead {
   background-color: #423ca3;
   text-align: center;
@@ -13,14 +14,16 @@ h1 {
 
 .btn {
   background-color: #15114c;
+  border-radius: .5rem;
+  border-color: transparent;
 }
 
 .nav {
-text-align: center;
+  text-align: center;
 }
 
 .logo {
-text-align: center;
+  text-align: center;
 }
 
 li {
@@ -28,9 +31,17 @@ li {
 }
 
 @media only screen and (min-width: 60em) {
- .masthead {
-   text-align: left;
- }
 
+  .masthead {
+    text-align: left;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 
 }
